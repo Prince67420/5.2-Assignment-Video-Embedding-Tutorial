@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A step-by-step guide to embedding a YouTube video in a web page.">
+  <title>How to Embed a YouTube Video | Field Notes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="#top" aria-label="Field Notes home"><span class="wordmark-mark">F</span> Field Notes <span class="wordmark-divider">/</span> Web basics</a>
+    <span class="lesson-tag">LESSON 05.02</span>
+  </header>
+
+  <main id="top">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow"><span class="eyebrow-line"></span> A practical walkthrough</p>
+      <h1 id="page-title">Put a YouTube video<br><em>on your page.</em></h1>
+      <p class="intro-copy">Take a video from YouTube, copy its embed code, and add it to your own HTML. Follow the five steps, then check the finished player below.</p>
+      <div class="intro-meta"><span>5 steps</span><span class="meta-dot"></span><span>About 5 minutes</span><span class="meta-dot"></span><span>HTML</span></div>
+    </section>
+
+    <section class="tutorial" aria-label="Embedding instructions">
+      <div class="section-heading">
+        <p class="eyebrow"><span class="eyebrow-line"></span> The process</p>
+        <p class="section-note">Work down the list. Keep the YouTube tab open while you edit your page.</p>
+      </div>
+
+      <article class="step">
+        <div class="step-marker"><span>01</span><span class="step-rule"></span></div>
+        <div class="step-content">
+          <div class="step-copy"><p class="step-kicker">Choose a video</p><h2>Open the video on YouTube</h2><p>Go to YouTube and open the video you want to show. Make sure it is appropriate for your audience and that its owner allows embedding.</p></div>
+          <figure class="screen-crop">
+            <svg viewBox="0 0 760 196" role="img" aria-labelledby="step1-title step1-desc">
+              <title id="step1-title">Cropped YouTube video page</title><desc id="step1-desc">The video page is open, with the video title and player in view.</desc>
+              <rect width="760" height="196" rx="8" fill="#fff"/><rect width="760" height="28" rx="8" fill="#f1f2f3"/><circle cx="18" cy="14" r="4" fill="#ef6a5b"/><circle cx="33" cy="14" r="4" fill="#e9b949"/><circle cx="48" cy="14" r="4" fill="#76b58b"/><rect x="233" y="7" width="310" height="14" rx="7" fill="#fff"/><text x="248" y="17" font-family="Arial,sans-serif" font-size="8" fill="#6b6d6f">youtube.com/watch?v=example</text>
+              <rect x="0" y="28" width="760" height="34" fill="#fff"/><rect x="20" y="39" width="69" height="13" rx="2" fill="#e51d2a"/><text x="35" y="49" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#fff">YouTube</text><rect x="219" y="36" width="326" height="18" rx="9" fill="#f7f7f7" stroke="#d5d6d7"/><text x="233" y="48" font-family="Arial,sans-serif" font-size="8" fill="#999">Search</text>
+              <rect x="112" y="72" width="376" height="99" rx="5" fill="#152a32"/><rect x="256" y="103" width="88" height="37" rx="5" fill="#e51d2a"/><polygon points="291,113 291,130 306,121.5" fill="#fff"/><text x="520" y="93" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#252829">How to Embed a YouTube Video</text><text x="520" y="109" font-family="Arial,sans-serif" font-size="8" fill="#777">Video tutorial</text><rect x="520" y="124" width="166" height="1" fill="#ddd"/><text x="520" y="142" font-family="Arial,sans-serif" font-size="8" fill="#777">Open the video you want to share.</text>
+              <rect x="101" y="66" width="394" height="111" rx="8" fill="none" stroke="#e66d4e" stroke-width="2" stroke-dasharray="5 4"/>
+            </svg>
+            <figcaption><span class="crop-label">ACTION VIEW</span> Open the selected video's watch page.</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="step">
+        <div class="step-marker"><span>02</span><span class="step-rule"></span></div>
+        <div class="step-content">
+          <div class="step-copy"><p class="step-kicker">Open sharing tools</p><h2>Select <strong>Share</strong></h2><p>Under the video player, choose <strong>Share</strong>. A panel of sharing options will appear.</p></div>
+          <figure class="screen-crop">
+            <svg viewBox="0 0 760 196" role="img" aria-labelledby="step2-title step2-desc">
+              <title id="step2-title">Share control below a video</title><desc id="step2-desc">The Share button below the video is highlighted.</desc>
+              <rect width="760" height="196" rx="8" fill="#fff"/><rect x="28" y="24" width="333" height="112" rx="5" fill="#192d35"/><rect x="153" y="61" width="82" height="36" rx="5" fill="#e51d2a"/><polygon points="186,70 186,88 201,79" fill="#fff"/><text x="28" y="157" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#252829">How to Embed a YouTube Video</text><text x="29" y="174" font-family="Arial,sans-serif" font-size="8" fill="#777">1.2M views</text>
+              <rect x="432" y="74" width="91" height="38" rx="19" fill="#f1f2f3"/><circle cx="454" cy="93" r="8" fill="none" stroke="#555" stroke-width="1.5"/><circle cx="451" cy="91" r="2" fill="#555"/><circle cx="459" cy="87" r="2" fill="#555"/><circle cx="459" cy="99" r="2" fill="#555"/><line x1="453" y1="91" x2="458" y2="88" stroke="#555"/><line x1="453" y1="94" x2="458" y2="98" stroke="#555"/><text x="470" y="96" font-family="Arial,sans-serif" font-size="10" fill="#333">Share</text><rect x="422" y="64" width="110" height="57" rx="7" fill="none" stroke="#e66d4e" stroke-width="2" stroke-dasharray="5 4"/><path d="M540 92h66" stroke="#e66d4e" stroke-width="1.5"/><circle cx="607" cy="92" r="3" fill="#e66d4e"/><text x="614" y="89" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#b94a36">Choose Share</text><text x="614" y="102" font-family="Arial,sans-serif" font-size="8" fill="#777">below the player</text>
+            </svg>
+            <figcaption><span class="crop-label">ACTION VIEW</span> Find Share in the row below the video.</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="step">
+        <div class="step-marker"><span>03</span><span class="step-rule"></span></div>
+        <div class="step-content">
+          <div class="step-copy"><p class="step-kicker">Get the HTML</p><h2>Choose <strong>Embed</strong></h2><p>In the sharing panel, select <strong>Embed</strong>. YouTube will show an <code>&lt;iframe&gt;</code> snippet for the video.</p></div>
+          <figure class="screen-crop">
+            <svg viewBox="0 0 760 196" role="img" aria-labelledby="step3-title step3-desc">
+              <title id="step3-title">Embed option in YouTube's sharing panel</title><desc id="step3-desc">The Embed sharing option is highlighted in the open Share panel.</desc>
+              <rect width="760" height="196" rx="8" fill="#f8f8f8"/><rect x="134" y="15" width="492" height="166" rx="9" fill="#fff" stroke="#e0e0e0"/><text x="160" y="42" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#282828">Share</text><text x="594" y="42" font-family="Arial,sans-serif" font-size="16" fill="#777">×</text>
+              <circle cx="188" cy="80" r="20" fill="#e7f2ef"/><circle cx="269" cy="80" r="20" fill="#e7f2ef"/><circle cx="350" cy="80" r="20" fill="#fce9e7"/><circle cx="431" cy="80" r="20" fill="#e7f2ef"/><circle cx="512" cy="80" r="20" fill="#e7f2ef"/><text x="180" y="84" font-family="Arial,sans-serif" font-size="9" fill="#267364">f</text><text x="264" y="84" font-family="Arial,sans-serif" font-size="9" fill="#267364">X</text><text x="341" y="84" font-family="Arial,sans-serif" font-size="9" fill="#b94a36">&lt;/&gt;</text><text x="176" y="113" font-family="Arial,sans-serif" font-size="8" fill="#555">Facebook</text><text x="257" y="113" font-family="Arial,sans-serif" font-size="8" fill="#555">X</text><text x="327" y="113" font-family="Arial,sans-serif" font-size="8" fill="#b94a36">Embed</text><text x="406" y="113" font-family="Arial,sans-serif" font-size="8" fill="#555">Email</text><text x="492" y="113" font-family="Arial,sans-serif" font-size="8" fill="#555">More</text>
+              <rect x="315" y="49" width="70" height="72" rx="7" fill="none" stroke="#e66d4e" stroke-width="2" stroke-dasharray="5 4"/><path d="M350 123v15" stroke="#e66d4e" stroke-width="1.5"/><text x="350" y="153" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#b94a36">Select Embed</text>
+            </svg>
+            <figcaption><span class="crop-label">ACTION VIEW</span> Select the Embed option, shown as <code>&lt;/&gt;</code>.</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="step">
+        <div class="step-marker"><span>04</span><span class="step-rule"></span></div>
+        <div class="step-content">
+          <div class="step-copy"><p class="step-kicker">Copy the player code</p><h2>Copy the <code>&lt;iframe&gt;</code></h2><p>Use the <strong>Copy</strong> button next to the code. Copy the full snippet, including the opening and closing iframe tags.</p></div>
+          <figure class="screen-crop">
+            <svg viewBox="0 0 760 196" role="img" aria-labelledby="step4-title step4-desc">
+              <title id="step4-title">Copying the iframe embed code</title><desc id="step4-desc">A code box and Copy button are shown, with the Copy button highlighted.</desc>
+              <rect width="760" height="196" rx="8" fill="#f8f8f8"/><rect x="111" y="14" width="538" height="168" rx="9" fill="#fff" stroke="#e0e0e0"/><text x="138" y="40" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#252829">Embed video</text><rect x="138" y="52" width="355" height="90" rx="5" fill="#f5f6f6" stroke="#dedfdf"/><text x="152" y="73" font-family="monospace" font-size="9" fill="#4c655b">&lt;iframe width="560" height="315"</text><text x="152" y="89" font-family="monospace" font-size="9" fill="#4c655b">src="https://www.youtube.com/embed/…"</text><text x="152" y="105" font-family="monospace" font-size="9" fill="#4c655b">title="YouTube video player"&gt;</text><text x="152" y="121" font-family="monospace" font-size="9" fill="#4c655b">&lt;/iframe&gt;</text><rect x="523" y="52" width="92" height="37" rx="18" fill="#e66d4e"/><text x="569" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#fff">COPY</text><rect x="515" y="44" width="108" height="53" rx="24" fill="none" stroke="#e66d4e" stroke-width="2" stroke-dasharray="5 4"/><text x="138" y="164" font-family="Arial,sans-serif" font-size="8" fill="#777">The URL and embed settings may differ for each video.</text><path d="M568 104v20h-35" fill="none" stroke="#e66d4e" stroke-width="1.5"/><text x="463" y="139" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#b94a36">Copy the complete snippet</text>
+            </svg>
+            <figcaption><span class="crop-label">ACTION VIEW</span> Copy all of the iframe code from YouTube.</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="step step-last">
+        <div class="step-marker"><span>05</span><span class="step-rule"></span></div>
+        <div class="step-content">
+          <div class="step-copy"><p class="step-kicker">Add it to your page</p><h2>Paste, save, and test</h2><p>Open your HTML file and paste the iframe where the player should appear, inside the <code>&lt;body&gt;</code>. Save the file, open the page in a browser, and check that the video plays.</p></div>
+          <figure class="screen-crop">
+            <svg viewBox="0 0 760 196" role="img" aria-labelledby="step5-title step5-desc">
+              <title id="step5-title">Pasting the iframe into an HTML page</title><desc id="step5-desc">An HTML editor shows the iframe inside the body, and a browser preview shows the video player.</desc>
+              <rect width="760" height="196" rx="8" fill="#f3f4f3"/><rect x="24" y="20" width="423" height="156" rx="6" fill="#20282b"/><rect x="24" y="20" width="423" height="25" rx="6" fill="#30393d"/><circle cx="40" cy="32" r="3" fill="#ec6b5b"/><circle cx="51" cy="32" r="3" fill="#e6b64e"/><text x="67" y="35" font-family="Arial,sans-serif" font-size="8" fill="#d5d9d9">index.html</text><text x="47" y="68" font-family="monospace" font-size="10" fill="#91b6a3">&lt;body&gt;</text><text x="64" y="88" font-family="monospace" font-size="9" fill="#c3d6cd">&lt;h1&gt;My video page&lt;/h1&gt;</text><rect x="57" y="97" width="350" height="42" rx="3" fill="#344640"/><text x="64" y="113" font-family="monospace" font-size="8" fill="#b8d7c6">&lt;iframe src="https://www.youtube.com/embed/…"&gt;</text><text x="64" y="128" font-family="monospace" font-size="8" fill="#b8d7c6">&lt;/iframe&gt;</text><text x="47" y="159" font-family="monospace" font-size="10" fill="#91b6a3">&lt;/body&gt;</text>
+              <path d="M464 98h37" stroke="#e66d4e" stroke-width="2"/><polygon points="500,93 510,98 500,103" fill="#e66d4e"/><rect x="521" y="38" width="213" height="119" rx="6" fill="#fff" stroke="#d7d9d7"/><rect x="521" y="38" width="213" height="18" rx="6" fill="#e9ebea"/><circle cx="533" cy="47" r="2.5" fill="#ec6b5b"/><circle cx="542" cy="47" r="2.5" fill="#e6b64e"/><rect x="541" y="65" width="173" height="72" rx="4" fill="#192d35"/><rect x="608" y="85" width="39" height="24" rx="4" fill="#e51d2a"/><polygon points="623,91 623,103 634,97" fill="#fff"/><text x="627" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#b94a36">SAVE, THEN TEST</text>
+            </svg>
+            <figcaption><span class="crop-label">ACTION VIEW</span> Paste the code in the body, then verify the browser preview.</figcaption>
+          </figure>
+        </div>
+      </article>
+    </section>
+
+    <section class="watch-section" aria-labelledby="watch-title">
+      <div class="watch-heading"><p class="eyebrow"><span class="eyebrow-line"></span> Finished example</p><h2 id="watch-title">The embedded video</h2><p>This player uses the iframe code supplied for this assignment.</p></div>
+      <div class="video-frame">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JV0-Gc2CDAQ?si=4HJn3yaUCXy06S1z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <p class="video-source">Video source: <a href="https://www.youtube.com/watch?v=JV0-Gc2CDAQ">YouTube</a></p>
+    </section>
+  </main>
+
+  <footer class="footer"><span>FIELD NOTES <span class="footer-dot">·</span> WEB BASICS</span><span>Video embedding tutorial</span></footer>
+</body>
+</html>
